@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script language="javascript">
+            var numero = parseInt(prompt("Digite a quantidade de alunos da turma: ",""));
+            alunos = new Array(numero);
+            var soma = 0;
+            for(x=0;x<numero;x++)
+            {
+                alunos[x] = parseInt(prompt("Nota do aluno "+(x+1)+" : ",""));
+                soma = soma + alunos[x];
+            }
+            media = soma/numero;
+            document.write("<b>Numero de alunos = " + numero);
+            document.write("<br><font color='red'>Media da turma = " + media + "</font></b>");
+            
+            document.write("<p><table border='1' cellspacing='1' cellpadding='5'>");
+            document.write("<tr><th>Aluno</th><th>Nota</th></tr>");            
+            for(x=0;x<numero;x++)
+            {                
+                document.write("<tr><td>"+(x+1)+"</td><td>"+alunos[x]+"</td></tr>")
+            }
+            document.write("</table>");
+            
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>

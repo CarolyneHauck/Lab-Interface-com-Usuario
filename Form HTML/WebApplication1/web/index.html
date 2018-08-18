@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            div {
+                padding-bottom: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <form name="frmIndex" method="GET" action="pagina2.html" enctype="text/plain">
+            <div>Nome: <input type="text" name="txtNome" value="" /></div>
+            <div>Senha: <input type="password" name="txtSenha" value="" maxlength="8" /></div>
+            <div>
+                Sistema Operacional:
+                <input type="checkbox" name="so" value="Windows10" checked="checked" />Windows 10
+                <input type="checkbox" name="so" value="Windows7" />Windows 7
+                <input type="checkbox" name="so" value="Linux" />Linux
+                <input type="checkbox" name="so" value="MacOS" />Mac OS
+            </div>
+            <div>
+                Processador:
+                <input type="radio" name="processador" value="Intel" checked="checked" />Intel
+                <input type="radio" name="processador" value="AMD" />AMD
+                <input type="radio" name="processador" value="Cyrix" />Cyrix
+            </div>
+            <div>
+                Profissão:
+                <select name="ddlProfissao">
+                    <option value="analista">Analista</option>
+                    <option value="programador">Programador</option>
+                </select>
+            </div>
+            <div>
+                Comentários: <textarea name="txtComentarios" rows="4"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Enviar Dados" name="btnEnviarDados" />
+                <input type="reset" value="Limpar Dados" name="btnLimparDados" />
+            </div>
+        </form>
+    </body>
+</html>

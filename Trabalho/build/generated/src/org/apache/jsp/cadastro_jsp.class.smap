@@ -1,0 +1,17 @@
+SMAP
+cadastro_jsp.java
+JSP
+*S JSP
+*F
++ 0 cadastro.jsp
+cadastro.jsp
++ 1 header.jsp
+header.jsp
++ 2 footer.jsp
+footer.jsp
+*L
+1,2:50
+1#1,29:51
+2#0,100:80
+1#2,9:179
+*E

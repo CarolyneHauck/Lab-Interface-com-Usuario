@@ -1,0 +1,16 @@
+SMAP
+desenvolvedores_jsp.java
+JSP
+*S JSP
+*F
++ 0 header.jsp
+header.jsp
++ 1 desenvolvedores.jsp
+desenvolvedores.jsp
++ 2 footer.jsp
+footer.jsp
+*L
+1,28:50
+1#1,27:78
+1#2,8:104
+*E
